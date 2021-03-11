@@ -1,23 +1,20 @@
 {
   "files": {
     "main.css": "/ztm-robofriends/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/ztm-robofriends/static/js/main.cbb16215.chunk.js",
-    "main.js.map": "/ztm-robofriends/static/js/main.cbb16215.chunk.js.map",
-    "runtime-main.js": "/ztm-robofriends/static/js/runtime-main.0fe3ec3b.js",
-    "runtime-main.js.map": "/ztm-robofriends/static/js/runtime-main.0fe3ec3b.js.map",
-    "static/js/2.3d401aac.chunk.js": "/ztm-robofriends/static/js/2.3d401aac.chunk.js",
-    "static/js/2.3d401aac.chunk.js.map": "/ztm-robofriends/static/js/2.3d401aac.chunk.js.map",
-    "static/js/3.92bcb454.chunk.js": "/ztm-robofriends/static/js/3.92bcb454.chunk.js",
-    "static/js/3.92bcb454.chunk.js.map": "/ztm-robofriends/static/js/3.92bcb454.chunk.js.map",
+    "main.js": "/ztm-robofriends/static/js/main.28f75b02.chunk.js",
+    "main.js.map": "/ztm-robofriends/static/js/main.28f75b02.chunk.js.map",
+    "runtime-main.js": "/ztm-robofriends/static/js/runtime-main.4fe8ed54.js",
+    "runtime-main.js.map": "/ztm-robofriends/static/js/runtime-main.4fe8ed54.js.map",
+    "static/js/2.fcbb3650.chunk.js": "/ztm-robofriends/static/js/2.fcbb3650.chunk.js",
+    "static/js/2.fcbb3650.chunk.js.map": "/ztm-robofriends/static/js/2.fcbb3650.chunk.js.map",
     "index.html": "/ztm-robofriends/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/ztm-robofriends/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.3d401aac.chunk.js.LICENSE.txt": "/ztm-robofriends/static/js/2.3d401aac.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/ztm-robofriends/static/media/logo.6ce24c58.svg"
+    "static/js/2.fcbb3650.chunk.js.LICENSE.txt": "/ztm-robofriends/static/js/2.fcbb3650.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0fe3ec3b.js",
-    "static/js/2.3d401aac.chunk.js",
+    "static/js/runtime-main.4fe8ed54.js",
+    "static/js/2.fcbb3650.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.cbb16215.chunk.js"
+    "static/js/main.28f75b02.chunk.js"
   ]
 }
