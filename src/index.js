@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import CardComponenet from "./CardComponenet";
+import { CardDeck } from 'react-bootstrap';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CardDeck className="d-flex justify-content-center align-content-center">
+      <CardComponenet/>
+      <CardComponenet/>
+      <CardComponenet/>
+      <CardComponenet/>
+    </CardDeck>
   </React.StrictMode>,
   document.getElementById('root')
 );
