@@ -3,13 +3,15 @@ import { CardDeck } from 'react-bootstrap';
 import CardComponenet from "./CardComponenet";
 
 const CardList = ({ robots }) => {
-    const getUser = robots.map((user, i) => {
-        return  <CardComponenet id={robots[i].id} name={robots[i].name} email={robots[i].email}/>
-    });
-    
     return(
-        <CardDeck className="d-flex justify-content-center align-content-center">
-            {getUser}
+        <CardDeck className="d-flex flex-wrap justify-content-center align-content-center">
+            {
+                robots.map((user, i) => {
+                    return  (
+                        <CardComponenet key={robots[i].id} id={robots[i].id} name={robots[i].name} email={robots[i].email}/>
+                    );
+                })
+            }
         </CardDeck>
     );
 };
