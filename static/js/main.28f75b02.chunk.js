@@ -1,2 +1,0 @@
-(this["webpackJsonpztm-robofriends"]=this["webpackJsonpztm-robofriends"]||[]).push([[0],{11:function(t,n,e){"use strict";e.r(n);var r=e(1),c=e.n(r),i=e(3),o=e.n(i),s=(e(8),e(9),e(0));var d=function(){return Object(s.jsx)("div",{className:"App",children:Object(s.jsx)("h1",{children:"Start Coding"})})};o.a.render(Object(s.jsx)(c.a.StrictMode,{children:Object(s.jsx)(d,{})}),document.getElementById("root"))},8:function(t,n,e){},9:function(t,n,e){}},[[11,1,2]]]);
-//# sourceMappingURL=main.28f75b02.chunk.js.map
