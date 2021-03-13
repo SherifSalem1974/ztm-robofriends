@@ -1,20 +1,16 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CardComponenet from "./CardComponenet";
-import { CardDeck } from 'react-bootstrap';
+import CardList from "./CardList";
+import { robots } from "./robots";
+
 
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <CardDeck className="d-flex justify-content-center align-content-center">
-      <CardComponenet/>
-      <CardComponenet/>
-      <CardComponenet/>
-      <CardComponenet/>
-    </CardDeck>
-  </React.StrictMode>,
+  <Fragment>
+    <CardList robots={robots}/>
+  </Fragment>,
   document.getElementById('root')
 );
 

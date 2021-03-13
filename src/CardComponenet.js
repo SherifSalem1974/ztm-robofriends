@@ -2,19 +2,17 @@ import React from 'react';
 import './CardComponenet.css';
 import {Card} from "react-bootstrap";
 
-const CardComponenet = () => {
+const CardComponenet = ({id, name, email}) => {
     return(
-        <div className="d-flex justify-content-center align-content-center cardDiv">
+        <div className="d-flex justify-content-center align-content-center">
             <Card style={{ width: '18rem' }} >
-                <Card.Img variant="top" alt="profile_photo" src="https://robohash.org/test?200x200" />
+                <Card.Img variant="top" alt="profile_photo" src={`https://robohash.org/${id}?200x200`}/>
                 <Card.Body>
-                    <Card.Title>Name</Card.Title>
-                    <Card.Text>email</Card.Text>
+                    <Card.Title>{name}</Card.Title>
+                    <Card.Text>{email}</Card.Text>
                 </Card.Body>
             </Card>
         </div>
-        
-        
     );
 }
 
