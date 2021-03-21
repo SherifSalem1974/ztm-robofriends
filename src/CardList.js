@@ -1,10 +1,9 @@
 import React from "react";
-import { CardDeck } from 'react-bootstrap';
 import CardComponenet from "./CardComponenet";
 
 const CardList = ({ robots }) => {
     return(
-        <CardDeck className="d-flex flex-wrap justify-content-center align-content-center">
+        <div className="">
             {
                 robots.map((user, i) => {
                     return  (
@@ -12,7 +11,7 @@ const CardList = ({ robots }) => {
                     );
                 })
             }
-        </CardDeck>
+        </div>
     );
 };
 

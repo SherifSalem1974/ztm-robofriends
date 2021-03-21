@@ -1,8 +1,10 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import CardList from "./CardList";
 import SearchBox from "./SearchBox.js";
+import Scroll from "./Scroll.js"
 import Loading from "./Loading.svg"
 import "./App.css";
+import "tachyons";
 
 class App extends Component {
     constructor() {
@@ -40,11 +42,14 @@ class App extends Component {
                     </div>
         } else {
             return (
-                <Fragment>
-                    <h1 className="text-center">ZTM Robo Friends App</h1>
+                <div className='tc'>
+                    <h1 className='f1'>ZTM Robo Friends App</h1>
                     <SearchBox searchFunc={this.searchFunc}/>
-                    <CardList robots={fliteredRobot}/>
-                </Fragment>
+                    <Scroll>
+                        <CardList robots={fliteredRobot}/>
+                    </Scroll>
+                    
+                </div>
             );
         }
         
