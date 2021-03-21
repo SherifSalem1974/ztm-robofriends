@@ -1,7 +1,12 @@
-span {
+.input-group-text {
     color: #e2d8cf;
+    border: none;
+    background-color: transparent;
 }
 
-.form-control {
-    border-color: rgb(209, 154, 34);
+.searchInput {
+    width: 50%;
+    padding: 0.5rem;
+    border-color: #c0691e;
+    border-radius: 0.5rem;
 }
