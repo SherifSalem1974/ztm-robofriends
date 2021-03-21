@@ -10,3 +10,16 @@ h1 {
     padding: 1rem;
     color: rgb(226, 216, 207);
 }
+
+.picContainer {
+    Display: flex;
+    Height: 100vh;
+    Width: 100vw; 
+    Align-Items: center;
+    Justify-Content: center;
+}
+
+.loadinPic {
+    width: 6rem;
+    height: 6rem;
+}

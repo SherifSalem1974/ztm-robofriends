@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import CardList from "./CardList";
 import SearchBox from "./SearchBox.js";
+import Loading from "./Loading.svg"
 import "./App.css";
 
 class App extends Component {
@@ -32,7 +33,9 @@ class App extends Component {
             return robot.name.toLowerCase().includes(this.state.searchField.toLowerCase());
         })
         if (this.state.robots.length === 0) {
-            return <h1>Loading</h1>
+            return <div className="picContainer">
+                        <img src={Loading} alt="loading logo" className="loadinPic"></img>
+                    </div>
         } else {
             return (
                 <Fragment>
