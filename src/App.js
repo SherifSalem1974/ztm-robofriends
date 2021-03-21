@@ -34,7 +34,9 @@ class App extends Component {
         })
         if (this.state.robots.length === 0) {
             return <div className="picContainer">
-                        <img src={Loading} alt="loading logo" className="loadinPic"></img>
+                        <div className="picDiv">
+                            <img src={Loading} alt="loading logo" className="loadinPic"></img>
+                        </div>
                     </div>
         } else {
             return (
