@@ -31,14 +31,18 @@ class App extends Component {
         const fliteredRobot = this.state.robots.filter(robot => {
             return robot.name.toLowerCase().includes(this.state.searchField.toLowerCase());
         })
-
-        return (
-        <Fragment>
-            <h1 className="text-center">ZTM Robo Friends App</h1>
-            <SearchBox searchFunc={this.searchFunc}/>
-            <CardList robots={fliteredRobot}/>
-        </Fragment>
-    );
+        if (this.state.robots.length === 0) {
+            return <h1>Loading</h1>
+        } else {
+            return (
+                <Fragment>
+                    <h1 className="text-center">ZTM Robo Friends App</h1>
+                    <SearchBox searchFunc={this.searchFunc}/>
+                    <CardList robots={fliteredRobot}/>
+                </Fragment>
+            );
+        }
+        
     };
 };
 
