@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ztm-robofriends/static/css/main.9ed3e454.chunk.css",
+    "main.css": "/ztm-robofriends/static/css/main.7dd089fc.chunk.css",
     "main.js": "/ztm-robofriends/static/js/main.7de120f3.chunk.js",
     "main.js.map": "/ztm-robofriends/static/js/main.7de120f3.chunk.js.map",
     "runtime-main.js": "/ztm-robofriends/static/js/runtime-main.4fe8ed54.js",
@@ -10,7 +10,7 @@
     "static/js/2.c400fe39.chunk.js.map": "/ztm-robofriends/static/js/2.c400fe39.chunk.js.map",
     "index.html": "/ztm-robofriends/index.html",
     "static/css/2.fe359a49.chunk.css.map": "/ztm-robofriends/static/css/2.fe359a49.chunk.css.map",
-    "static/css/main.9ed3e454.chunk.css.map": "/ztm-robofriends/static/css/main.9ed3e454.chunk.css.map",
+    "static/css/main.7dd089fc.chunk.css.map": "/ztm-robofriends/static/css/main.7dd089fc.chunk.css.map",
     "static/js/2.c400fe39.chunk.js.LICENSE.txt": "/ztm-robofriends/static/js/2.c400fe39.chunk.js.LICENSE.txt",
     "static/media/Loading.478145db.svg": "/ztm-robofriends/static/media/Loading.478145db.svg",
     "static/media/App.css": "/ztm-robofriends/static/media/SEGA.47b4bfa9.woff"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.4fe8ed54.js",
     "static/css/2.fe359a49.chunk.css",
     "static/js/2.c400fe39.chunk.js",
-    "static/css/main.9ed3e454.chunk.css",
+    "static/css/main.7dd089fc.chunk.css",
     "static/js/main.7de120f3.chunk.js"
   ]
 }
