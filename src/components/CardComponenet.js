@@ -4,7 +4,7 @@ import './CardComponenet.css';
 
 const CardComponenet = ({id, name, email}) => {
     return(
-        <div className="tc dib br3 pa3 ma2 grow bw2 shadow-5">
+        <div className="tc dib br3 pa3 ma2 grow bw2 shadow-5 card">
             <img alt="profile_photo" src={`https://robohash.org/${id}?200x200`}/>
             <div>
                 <h2>{name}</h2>

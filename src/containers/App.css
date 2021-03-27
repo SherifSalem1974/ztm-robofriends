@@ -8,7 +8,8 @@
 h1 {
     font-family: 'SEGA LOGO FONT';
     padding: 1rem;
-    color: rgb(226, 216, 207);
+    color: #e2d8cf;
+    font-weight: 200;
 }
 
 .picContainer {

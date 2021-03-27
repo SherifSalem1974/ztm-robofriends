@@ -1,0 +1,11 @@
+.card {
+    background-color: #d87e43;
+    border: solid 2px;
+    border-color: #9b6109;
+}
+
+h2, p {
+    font-family: 'Anton', cursive;
+    color: #e2d3c6;
+    font-weight: 100;
+}
