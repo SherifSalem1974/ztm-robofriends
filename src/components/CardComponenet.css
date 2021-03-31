@@ -9,3 +9,13 @@ h2, p {
     color: #e2d3c6;
     font-weight: 100;
 }
+
+button {
+   float: left; 
+}
+
+svg {
+    width: 2em;
+    height: 2em;
+    color: #e2d3c6;
+}
