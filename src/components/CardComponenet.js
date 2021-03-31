@@ -29,6 +29,7 @@ const CardComponenet = ({id, name, email, city, company, website, phone}) => {
                             marginRight: '-50%',
                             transform: 'translate(-50%, -50%)',
                             border: 'solid 2px #9b6109',
+                            borderRadius: '.5rem',
                             background: '#d87e43'
                         },
                         overlay : {
@@ -39,7 +40,9 @@ const CardComponenet = ({id, name, email, city, company, website, phone}) => {
                     }
                 }
             >
+                <div className='fr'>
                 <FaRegWindowClose onClick={()=> setModalIsOpen(false)}></FaRegWindowClose>
+                </div>
                 <div className='tc'>
                     <img alt="profile_photo" src={`https://robohash.org/${id}?200x200`}/>
                     <h2>Name: {name}</h2>
